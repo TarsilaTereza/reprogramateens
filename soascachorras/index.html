@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fjalla+One&display=swap"
+        rel="stylesheet">
+
+</head>
+<!--Tem autoplay-->
+<body>
+    <audio autoplay controls>
+        <source src="./som/WhatsApp Audio 2020-11-13 at 15.01.48.mpeg">
+    </audio>
+    <header class="header__conteudo--apresentacao">
+        <h1>Formulário de inscrição - Masculino do <span style="color: #2F8E3F">Miss Dog vira-lata Brasil</span></h1>
+        <img class="header__conteudo--img" src="Imagens/dogcaramelo.gif"
+            alt="Cachorro marrom atendendo telefone antigo s">
+    </header>
+    <form>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label>Seu nome:</label>
+            <input type="text" placeholder="Ex.:Raimundo"><br>
+            <label>Sua data de nascimento:</label>
+            <input type="date"><br>
+            <label>O nome do seu dono é:</label>
+            <input type="text" placeholder="Ex.:Maduda"><br>
+            <input type="checkbox" value="Não tenho dono, sou emancipado">
+            <label>Não tenho dono, sou emancipado</label><br>
+            <label>Já teve carrapato?</label><br>
+            <input type="checkbox" value="Quem nunca?">
+            <label>Quem nunca?</label><br>
+            <input type="checkbox" value="Nãoooo">
+            <label>Nãoooo</label><br>
+            <label>Qual a raça do seu pai?</label>
+            <input type="text"><br>
+            <label>E da sua mãe?</label>
+            <input type="text"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Um pouco sobre você</legend>
+            <label>O que você queria ser quando era um filhote?</label>
+            <input type="text" placeholder="Ex.:Um cachorro policial"><br>
+            <div class="form__fieldset--textarea">
+                <lebel>Qual era seu maior sonho quando era filhote?</lebel>
+                <textarea cols="50" rows="5" placeholder="Ex.: Ser adotado"></textarea><br>
+            </div>
+            </div>
+            <label>O que você mais gosta de fazer quando não está dormindo ou comendo?</label>
+            <input type="text" placeholder="Ex.: Gosto de brincar com a bolinha"><br>
+            <input type="file"><br>
+            <label><em>Oi, esse sou eu. Eu vou ser o futuro <strong>Dog vira-lata do Brasil</strong></em></label><br>
+            <button class=".main__form--button-arquivo">Uploud</button><br>
+            <label>Eu me considero:</label><br>
+            <input type="checkbox" value="Um bom menino">
+            <label>Um bom menino</label><br>
+            <input type="checkbox" value="Um mau menino">
+            <label>Um mau menino</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Deixe sua marca</legend>
+            <label>Porque você deve ser o próximo Miss Dog Vira-lata do Brasil?</label>
+            <textarea cols="60" rows="3"
+                placeholder="Digite aqui algo que nos faça lembrar de você. Capriche ;)"></textarea><br>
+            <label>Uma música que você gosta:</label>
+            <!--Desculpa, eu tive que colocar. Não sou tão criativa quanto a Tarsila do Amaral :/-->
+            <input type="file"><br>
+            <button class=".main__form--button-arquivo
+                ">Uploud</button>
+        </fieldset>
+        <fieldset>
+            <div class="main__form--buttom-div">
+                <input class="main__form--buttom" type="submit" value="Enviar inscrição">
+            </div>
+        </fieldset>
+        <footer><em>Criado por Tarsila (não do Amaral) como atividade da semana 2 da {Reprograma} Teens - turma 1</em> </footer>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+

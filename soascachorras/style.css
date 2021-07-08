@@ -1,0 +1,60 @@
+*{
+    background-color: cadetblue;
+    font-family: 'Fjalla One', sans-serif;
+}
+.header__conteudo--apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    line-height: 67px;
+}
+
+fieldset{
+    padding: 50px;
+    line-height: 35px;
+}
+
+.header__conteudo--img{
+    width: 25%;
+    padding: 15px;
+}
+
+.form__fieldset--textarea{
+    display: flex;
+}
+
+form{
+   margin: 20px;
+   padding: 20px;
+}
+
+.main__form--buttom-div{
+    display: flex;
+    justify-content: center;
+}
+
+.main__form--buttom{
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+footer{
+    opacity: 0.3;
+    text-align: center;
+}
+
+
